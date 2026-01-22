@@ -19,10 +19,11 @@ Repository này chứa các lời giải cho các bài toán trên **LeetCode**,
 
 ```
 leet_code/
-├── two_sum/                    # Easy - Hash Table
-├── add_two_number/             # Medium - Linked List
-├── minimum_bitwise_array_2/    # Medium - Bit Manipulation
-└── ...
+├── two_sum/                                    # Easy - Hash Table
+├── add_two_number/                             # Medium - Linked List
+├── minimum_bitwise_array_2/                    # Medium - Bit Manipulation
+├── longest_substring_without_repeating_characters/ # Medium - Sliding Window
+└── minimum_pair_removal_to_sort_array_1/       # Medium - Array / Simulation
 ```
 
 ## 📊 Tiến độ
@@ -32,6 +33,8 @@ leet_code/
 | 1 | [Two Sum](./two_sum/) | 🟢 Easy | Array, Hash Table | ✅ |
 | 2 | [Add Two Numbers](./add_two_number/) | 🟡 Medium | Linked List | ✅ |
 | 3 | [Minimum Bitwise Array II](./minimum_bitwise_array_2/) | 🟡 Medium | Bit Manipulation | ✅ |
+| 4 | [Longest Substring Without Repeating Characters](./longest_substring_without_repeating_characters/) | 🟡 Medium | String, Sliding Window | ✅ |
+| 5 | [Minimum Pair Removal to Sort Array](./minimum_pair_removal_to_sort_array_1/) | 🟡 Medium | Array, Simulation | ✅ |
 
 ## 🚀 Cách chạy
 
@@ -52,12 +55,14 @@ g++ main.cpp -o main
 - [x] **Array & Hash Table**: Two Sum
 - [x] **Linked List**: Add Two Numbers (Dummy Head pattern)
 - [x] **Bit Manipulation**: Lowbit technique (`x & (-x)`)
+- [x] **String & Sliding Window**: Longest Substring Without Repeating Characters
+- [x] **Simulation**: Minimum Pair Removal
 
 ### Các kỹ thuật quan trọng
 - **Two Pointers**: Duyệt mảng từ hai phía
 - **Sliding Window**: Tìm chuỗi con thỏa mãn điều kiện
-- **Dynamic Programming**: Tối ưu bài toán con lặp lại
-- **Backtracking**: Tìm kiếm tất cả các giải pháp
+- **Bitwise Ops**: Sử dụng `lowbit` để xử lý bit
+- **Greedy**: Lựa chọn tối ưu cục bộ
 
 ## 🎯 Mục tiêu
 
